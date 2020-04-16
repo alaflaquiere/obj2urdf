@@ -13,3 +13,11 @@ python obj2urdf.py <path to the file.obj>
 ```
 By default the object is made white, its position set
 to 0, its scale set to 1, and its inertia set to 0.
+
+## Test
+To test the script, run the following example:
+```bash
+python obj2urdf.py example/cube.obj
+```
+This will create the corresponding urdf file:
+example/cube.urdf
