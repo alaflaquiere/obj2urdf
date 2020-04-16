@@ -54,7 +54,6 @@ def write_urdf_text():
         text = """<?xml version="1.0" ?>
 <robot name="{}.urdf">
   <link name="baseLink">
-
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
        <mass value="0.0"/>
